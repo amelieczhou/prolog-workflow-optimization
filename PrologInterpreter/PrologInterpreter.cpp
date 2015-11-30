@@ -450,8 +450,7 @@ int main(int argc, char* argv[])
 			optimizer->Simulate();
 		}
 	}else if(strcmp(argv[8],"followsun")==0){
-		//give the datacenters
-		
+		//give the datacenters		
 		DataCenter* dcs[numDCs];
 		for(int i=0; i<numDCs; i++){
 			if(i<3)
